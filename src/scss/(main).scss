@@ -140,5 +140,23 @@ a {
 @media screen and (min-width: 768px){
     .card {
         box-shadow: 0 25px 3px 15px $very-dark-blue-card-shadow, 0 25px 3px 45px $very-dark-blue-card-shadow2;
+        width: 350px;
+        height: 600px;
+
+        .image {
+            margin-bottom: 26px;
+
+            a {
+                height: 302px;
+            }
+        }
+
+        .card-description {
+            margin-bottom: 26px;
+        }
+
+        .deal-wrapper {
+            padding-bottom: 22px;
+        }
     }
 }
